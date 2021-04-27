@@ -1,0 +1,162 @@
+/* font-family: 'Courgette', cursive; */
+
+/* WhiteSmoke
+RGBA(211, 211, 211, 0.548)
+RGB(78, 78, 78)
+RGB(39, 39, 39) */
+
+*{
+    box-sizing: border-box;
+}
+body header{
+    width: 100%;
+    height: 60px;
+    background-color: RGBA(211, 211, 211, 0.548);
+}
+
+body header h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courgette', cursive; 
+    padding-top: 15px;
+
+}
+body main{
+    background-image: url(https://i.stack.imgur.com/NX7PC.jpg);
+    height: 500px;
+    background-repeat: inherit;
+    
+}
+
+body #form{
+    height: 270px;
+    width: 450px;
+    background-color: RGBA(211, 211, 211, 0.548);
+    position: relative;
+    left: 200px;
+    top: 40px;
+}
+
+#form #userName{
+    font-family: 'Courgette', cursive; 
+    position: relative;
+    left: 210px;
+    top: 35px;
+    font-weight: 700;
+
+}
+
+#form #user{
+    position: relative;
+    top: 55px;
+    left: 130px;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 130px;
+}
+
+
+#form #typeMobile{
+    font-family: 'Courgette', cursive; 
+    position: relative;
+    left: 30px;
+    top: 120px;
+    font-weight: 700;
+    
+}
+
+#form #type{
+    position: relative;
+    top: 140px;
+    left: -40px;
+    border-radius: 10px;
+    width: 120px;
+    
+}
+
+#submit{
+    border-radius: 20px;
+    position: relative;
+    top: 190px;
+    left: -170px;
+    color: whitesmoke ;
+    background-color: RGB(39, 39, 39)  ;
+    width: 120px;
+
+
+}
+
+/* div{
+    background-color: RGBA(211, 211, 211, 0.548);
+    position: relative;
+    right: -120px;
+    display: inline;
+    top: 200px;
+} */
+#table{
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    position: relative;
+    right: -750px;
+    top: -200px;
+    background-color: RGBA(211, 211, 211, 0.548);
+    /* padding: 50px;
+; */
+}
+table th{
+    background-color: RGB(39, 39, 39) ;
+    color: whitesmoke;
+    font-family: 'Courgette', cursive; 
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    width: 120px;
+    text-align: center;
+    /* height: 30px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table td{
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    width: 120px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: RGB(78, 78, 78) ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Courgette', cursive; 
+
+}
+
+footer{
+    background-color: RGBA(211, 211, 211, 0.548);
+    height: 70px;
+    
+    
+}
+
+footer p{
+    text-align: center;
+    font-family: 'Courgette', cursive; 
+    position: relative;
+    top: 30px ;
+}
+
+
+/* stretch goal: */
+
+#form button{
+    background-color: whitesmoke;
+    width: 100px;
+    position: relative;
+    top: 210px;
+    left: 170px;
+    border-radius: 10px;
+    color: whitesmoke ;
+    background-color: RGB(39, 39, 39)  ;
+    
+}
